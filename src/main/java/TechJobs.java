@@ -129,13 +129,13 @@ public class TechJobs {
             Object[] value = item.values().toArray();
 
             //i<item.size()
-            System.out.println("*****");
+            System.out.println("\n*****");
 
             for (int i = 0; i < item.size(); i++) {
                 System.out.println(key[i] + ": " + value[i]);
             }
 
-            System.out.println("*****\n" + "");
+            System.out.println("*****" + "");
 
             //ArrayList<String> jobList = JobData.findAll("employer");
 
